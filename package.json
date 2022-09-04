@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "dev": "npx parcel src/index.html && sass --watch main.sass styles.css",
+    "built":""
+  },
+  "devDependencies": {
+    "parcel": "^2.7.0"
+  }
+}

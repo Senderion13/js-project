@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Filmoteka</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header__links">
+          <div class="logo">
+            <svg class="logo__icon" width="24" height="24">
+              <use href="./images/sprite.svg#logo"></use>
+            </svg>
+            <h1 class="logo__text">Filmoteka</h1>
+          </div>
+          <ul class="nav">
+            <li class="nav__elem active">
+              <a href="index.html">HOME</a>
+            </li>
+            <li class="nav__elem">
+              <a href="library.html">MY LIBRARY</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="header__search">
+          <form>
+            <input placeholder="Movie search" />
+            <button type="submit">
+              <svg width="16" height="16">
+                <use href="./images/sprite.svg#search"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <div class="films-gallery"></div>
+        <div class="pagination"></div>
+      </div>
+    </main>
+    <footer>
+      <p>
+        &#169; 2022 | All Rights Reserved | Developed with
+        <svg width="16px" height="16px">
+          <use href="./images/sprite.svg#heart"></use>
+        </svg>
+        by
+        <a href="#">Sierow Andrii</a>
+      </p>
+    </footer>
+    <script type="module" src="app.js"></script>
+  </body>
+</html>
