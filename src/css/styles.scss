@@ -138,5 +138,27 @@ body {
         margin: 0 auto;
         padding-top: 40px;
         padding-bottom: 60px;
+        & button {
+            padding: 0;
+            width: 148px;
+            height: 42px;
+            font-family: Roboto;
+            font-size: 12px;
+            font-weight: 500;
+            line-height: 16px;
+            letter-spacing: 0em;
+            text-align: center;
+            color: white;
+            border-radius: 5px;              
+        }
+    }
+    &__watched {
+        border: none;
+        background-color: #FF6B01;
+        margin-right: 16px;
+    }
+    &__queue {
+        background: none;
+        border: 1px solid #FFFFFF;
     }
 }
